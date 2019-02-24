@@ -1,12 +1,12 @@
 Usage:
 
 To generate a pedigree file:
-'java -Xmx6g -jar VCF2LR.jar -d <directory with .vcf formated files or a single .vcf file> -g <Genotype_Counts.txt> -o <output file name without suffix>'
+'java -Xmx6g -jar VCF2LR.jar -d <directory with .vcf formated files or a single .vcf file> -g <Genotype_Counts.txt> -o <pedigree_output_name>'
 
 To visualize the pedigree for a pedigree text file ped.txt:
-'Rscript plot_pedigree.R <ped.txt>'
+'Rscript plot_pedigree.R <pedigree_output_name.txt>'
 
-The output will be automaically created: ped.pdf
+The output will be created: ped.pdf
 
 See:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408770/
